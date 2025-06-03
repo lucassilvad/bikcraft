@@ -2,7 +2,7 @@
   font-family: "Poppins";
   font-weight: 600;
   display: inline-block;
-  background: linear-gradient(#ffbb00, #f2a50c);
+  background: linear-gradient(var(--cor-p1), #f2a50c);
   padding: 16px 32px;
   color: #320;
   font-size: 1.125rem;
@@ -11,7 +11,7 @@
   text-transform: uppercase;
 }
 .btn:hover {
-  background: linear-gradient(#ffb60d, #e59317);
+  background: linear-gradient(#ffb60d, var(--cor-p2));
 }
 @media (width <= 600px) {
   .btn {
