@@ -44,9 +44,10 @@ a {
 }
 
 .header-menu {
+  font-family: "Poppins";
+  font-weight: 400;
   display: flex;
   flex-wrap: wrap;
-
   gap: 40px;
   font-size: 1.125rem;
   color: #fff;
@@ -121,6 +122,8 @@ a {
 }
 
 .introducao h1 {
+  font-family: "Poppins";
+  font-weight: 600;
   font-size: 4rem;
   line-height: 1.125;
   color: #fff;
@@ -132,6 +135,8 @@ a {
 }
 
 .introducao p {
+  font-family: "Roboto";
+  font-weight: 400;
   font-size: 1.6rem;
   line-height: 1.5;
   color: #9c9c9c;
@@ -139,12 +144,13 @@ a {
 }
 
 .btn {
+  font-family: "Poppins";
+  font-weight: 600;
   display: inline-block;
   background: linear-gradient(#ffbb00, #f2a50c);
   padding: 16px 32px;
   color: #320;
   font-size: 1.125rem;
-  font-weight: bold;
   border-radius: 4px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
   text-transform: uppercase;
