@@ -34,16 +34,6 @@
   border-radius: 4px;
 }
 
-@media (width <= 1200px) {
-  .introducao h1 {
-    font-size: 3rem;
-  }
-
-  .introducao p {
-    font-size: 1.125rem;
-  }
-}
-
 @media (width <= 800px) {
   .introducao-bg {
     background: #111;
@@ -61,7 +51,6 @@
   }
 
   .introducao h1 {
-    font-size: 2rem;
     margin-bottom: 16px;
   }
 

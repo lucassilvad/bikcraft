@@ -15,12 +15,9 @@
 }
 
 .header-menu {
-  font-family: "Poppins";
-  font-weight: 400;
   display: flex;
   flex-wrap: wrap;
   gap: 40px;
-  font-size: 1.125rem;
 }
 
 .header-menu a {
