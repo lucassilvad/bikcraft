@@ -18,6 +18,10 @@ img {
   height: auto;
 }
 
+img[src$=".jpg"] {
+  border-radius: 4px;
+}
+
 ul {
   padding: 0;
   list-style: none;
