@@ -1,0 +1,84 @@
+.seguros-bg {
+  background: var(--cor-11);
+}
+
+.seguros {
+  padding-top: 80px;
+  padding-bottom: 120px;
+}
+
+.seguros h2 {
+  margin-bottom: 60px;
+}
+
+.planos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  gap: 160px;
+  align-items: center;
+}
+
+.plano {
+  background: var(--cor-12);
+  padding: 32px 32px 32px 60px;
+  border-radius: 4px;
+}
+
+.plano-info {
+  display: flex;
+  /* gap: 200px; */
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+
+.plano-preco span {
+  display: block;
+  text-align: right;
+}
+
+.mensalidade {
+  margin-top: -8px;
+}
+
+.plano ul {
+  display: grid;
+  gap: 20px;
+  margin-bottom: 32px;
+}
+
+.plano li {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.plano li::before {
+  content: "";
+  display: inline-block;
+  width: 13px;
+  height: 9px;
+  background: url("/img/icones/lista.svg") no-repeat;
+  position: absolute;
+  left: -21px;
+}
+
+.prata a {
+  background: var(--cor-10);
+  color: var(--cor-4);
+}
+
+.prata a:hover {
+  background: var(--cor-9);
+}
+
+@media (width <= 800px) {
+  .planos {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .ouro {
+    grid-row: 1;
+  }
+}
