@@ -21,6 +21,13 @@
   background: linear-gradient(#ffb60d, var(--cor-p2));
 }
 
+@media (width <= 600px) {
+  .btn {
+    padding: 12px 16px;
+    font-size: 1rem;
+  }
+}
+
 .link {
   display: inline-block;
   color: var(--cor-p1);
@@ -43,9 +50,27 @@
   color: var(--cor-0);
 }
 
-@media (width <= 600px) {
-  .btn {
-    padding: 12px 16px;
+/* Títulos Internos */
+
+.titulo-bg {
+  background: var(--cor-11);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.titulo p {
+  margin-bottom: 4px;
+}
+
+@media (width <= 800px) {
+  .titulo-bg {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .titulo p {
     font-size: 1rem;
+    text-transform: lowercase;
+    font-weight: 400;
   }
 }
