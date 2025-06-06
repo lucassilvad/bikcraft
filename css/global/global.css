@@ -9,8 +9,10 @@ h2,
 h3,
 p,
 ul,
-blockquote {
+blockquote,
+dd {
   margin: 0;
+  padding: 0;
 }
 
 img {
