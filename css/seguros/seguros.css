@@ -62,7 +62,7 @@
   display: inline-block;
   width: 13px;
   height: 9px;
-  background: url("/img/icones/lista.svg") no-repeat;
+  background: url("../../img/icones/lista.svg") no-repeat;
   position: absolute;
   left: -21px;
 }
