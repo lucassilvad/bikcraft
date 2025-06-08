@@ -19,7 +19,7 @@
   margin-bottom: 8px;
 }
 
-@media (width <= 800px) {
+@media (max-width: 800px) {
   .vantagens-bg {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -34,7 +34,7 @@
   } */
 }
 
-@media (width <= 600px) {
+@media (max-width: 600px) {
   /* .vantagens ul {
     grid-template-columns: 1fr;
     gap: 20px;

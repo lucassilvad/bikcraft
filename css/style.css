@@ -9,6 +9,7 @@
 @import "./utilidades/componentes.css";
 @import "./utilidades/tipografia.css";
 @import "./utilidades/cores.css";
+@import "./utilidades/formulário.css";
 
 /* Home */
 
@@ -32,6 +33,11 @@
 @import "./seguros/seguros.css";
 @import "./seguros/vantagens.css";
 @import "./seguros/perguntas.css";
+
+/* Contato */
+
+@import "./contato/contato.css";
+@import "./contato/lojas.css";
 
 /* Termos e Condições */
 

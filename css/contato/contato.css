@@ -1,0 +1,115 @@
+#contato {
+  background: var(--cor-1);
+  background: linear-gradient(var(--cor-11) 600px, var(--cor-1) 0%);
+}
+
+.contato {
+  display: grid;
+  grid-template-columns: 5fr 7fr;
+  padding-top: 20px;
+  padding-bottom: 120px;
+}
+
+.contato-dados,
+.contato-formulario {
+  padding: 60px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.contato-dados {
+  background: var(--cor-12);
+  border-radius: 4px 0 0 4px;
+}
+
+.contato-dados h2 {
+  margin-bottom: 60px;
+}
+
+.contato-endereco {
+  margin-bottom: 32px;
+}
+
+.contato-endereco p + p,
+.contato-formas a:nth-child(2) {
+  margin-top: 8px;
+}
+
+/* .contato-endereco p:first-child,
+.contato-formas a:first-child,
+.contato-formas a:last-child {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.contato-endereco p:nth-child(n + 2),
+.contato-formas a:nth-child(2) {
+  margin-left: 28px;
+}
+.contato-endereco p:first-child::before,
+.contato-formas a:first-child::before,
+.contato-formas a:last-child::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+} */
+
+.contato-endereco {
+  background: url("../../img/icones/local.svg") no-repeat 0px 2px;
+  padding-left: 28px;
+}
+
+.contato-formas a {
+  display: block;
+  width: max-content;
+  padding-left: 28px;
+}
+
+.contato-formas a:first-child {
+  background: url("../../img/icones/email.svg") no-repeat 0px 2px;
+}
+
+.contato-formas a:last-child {
+  background: url("../../img/icones/telefone.svg") no-repeat 0px 2px;
+  margin-top: 32px;
+}
+
+.contato-formas {
+  margin-bottom: 60px;
+}
+
+.contato-redes {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+  padding-left: 28px;
+}
+
+.contato-formulario {
+  background: var(--cor-0);
+  border-radius: 0 4px 4px 0;
+}
+
+@media (max-width: 800px) {
+  .contato {
+    grid-template-columns: 1fr;
+  }
+
+  .contato-dados,
+  .contato-formulario {
+    padding: 20px;
+  }
+
+  .contato-dados h2,
+  .contato-formas {
+    margin-bottom: 32px;
+  }
+
+  .contato-dados {
+    border-radius: 4px 4px 0 0;
+  }
+
+  .contato-formulario {
+    border-radius: 0 0 4px 4px;
+  }
+}

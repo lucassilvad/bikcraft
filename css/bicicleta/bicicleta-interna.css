@@ -106,7 +106,7 @@
   border-top: 2px solid var(--cor-11);
 }
 
-@media (width <= 800px) {
+@media (max-width: 800px) {
   .bicicleta {
     padding-top: 40px;
     padding-top: 40px;
@@ -118,7 +118,7 @@
   }
 }
 
-@media (width <= 600px) {
+@media (max-width: 600px) {
   .bicicleta-comprar,
   .bicicleta-informacoes {
     grid-template-columns: 1fr;

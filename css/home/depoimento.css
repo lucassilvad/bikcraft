@@ -44,7 +44,7 @@
   content: "”";
 }
 
-@media (width <= 800px) {
+@media (max-width: 800px) {
   .depoimento {
     grid-template-columns: 1fr;
     text-align: center;
@@ -60,7 +60,7 @@
   }
 }
 
-@media (width <= 500px) {
+@media (max-width: 500px) {
   .depoimento-conteudo {
     padding: 40px;
   }

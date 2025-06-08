@@ -94,7 +94,7 @@
   place-self: end;
 }
 
-@media (width <= 800px) {
+@media (max-width: 800px) {
   .bicicletas {
     grid-template-columns: 1fr;
     gap: 20px;
@@ -102,12 +102,12 @@
     padding-bottom: 40px;
   }
 
-  .bicicletas-bg {
+  .bicicleta-bg {
     background: var(--cor-11);
   }
 }
 
-@media (width <= 600px) {
+@media (max-width: 600px) {
   .bicicletas-conteudo {
     grid-template-columns: 1fr;
   }
@@ -124,7 +124,7 @@
   }
 }
 
-@media (width <= 500px) {
+@media (max-width: 500px) {
   .bicicletas-imagem {
     display: block;
   }
@@ -148,7 +148,7 @@
   } */
 }
 
-@media (width <= 400px) {
+@media (max-width: 400px) {
   .bicicletas li:nth-child(1),
   .bicicletas li:nth-child(2) {
     align-items: start;

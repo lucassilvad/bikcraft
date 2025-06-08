@@ -76,7 +76,7 @@
   background: var(--cor-9);
 }
 
-@media (width <= 800px) {
+@media (max-width: 800px) {
   .planos {
     grid-template-columns: 1fr;
     gap: 20px;

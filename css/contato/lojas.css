@@ -1,0 +1,85 @@
+.lojas {
+  padding-bottom: 120px;
+}
+
+.lojas h2 {
+  margin-bottom: 60px;
+}
+
+.lojas-item {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.lojas-item img {
+  border-radius: 4px 4px 0 0;
+}
+
+.loja-sobre {
+  background: var(--cor-0);
+  border-radius: 0 0 4px 4px;
+  padding: 32px;
+}
+
+.loja-sobre h3 {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  grid-column: span 2;
+  margin-bottom: 20px;
+}
+
+.loja-sobre h3::before {
+  content: "";
+  display: block;
+  width: 12px;
+  height: 4px;
+  background: var(--cor-p1);
+}
+
+.loja-sobre {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.loja-info {
+  padding-left: 12px;
+  border-left: 2px solid var(--cor-2);
+  margin-bottom: 32px;
+}
+
+.loja-info {
+  margin-left: 26px;
+}
+
+.loja-info p + p {
+  margin-top: 20px;
+}
+
+.loja-horario {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  grid-column: 1 / -1;
+}
+
+@media (max-width: 800px) {
+  .lojas {
+    padding-bottom: 60px;
+  }
+
+  .lojas h2 {
+    margin-bottom: 32px;
+  }
+
+  .loja-info {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (max-width: 600px) {
+  .lojas-item {
+    grid-template-columns: 1fr;
+  }
+}

@@ -51,7 +51,7 @@
   margin-top: 80px;
 }
 
-@media (width <= 800px) {
+@media (max-width: 800px) {
   .footer {
     grid-template-columns: 1fr 1fr;
     gap: 80px;
@@ -62,7 +62,7 @@
   }
 }
 
-@media (width <= 600px) {
+@media (max-width: 600px) {
   .footer {
     grid-template-columns: 1fr;
   }
