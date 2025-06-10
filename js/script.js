@@ -30,3 +30,34 @@ if (parametros) {
 }
 
 console.log(parametros);
+
+// Perguntas Frequentes
+
+const perguntas = document.querySelectorAll(".perguntas button");
+
+function ativarPergunta(event) {
+  const pergunta = event.currentTarget;
+  const resposta = document.getElementById(
+    pergunta.getAttribute("aria-controls")
+  );
+
+  resposta.classList.toggle("ativa");
+  const ativa = resposta.classList.includes("ativa");
+  pergunta.setAttribute("aria-expanded", ativa);
+
+  console.log(resposta);
+
+  // event.currentTarget.classList.toggle("ativa");
+}
+
+function eventosPerguntas(perguntas) {
+  perguntas.addEventListener("click", ativarPergunta);
+}
+
+perguntas.forEach(eventosPerguntas);
+
+// Galeria de Bicicletas
+
+const galeria = document.querySelectorAll(".bicicleta-imagens img");
+
+console.log(galeria);
