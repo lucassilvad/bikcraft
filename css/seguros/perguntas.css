@@ -62,11 +62,11 @@
   transform: rotate(180deg);
 }
 
-.pergunta dd {
+.js .pergunta dd {
   display: none;
 }
 
-.perguntas .ativa {
+.js .perguntas .ativa {
   display: block;
 }
 
