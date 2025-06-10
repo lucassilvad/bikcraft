@@ -80,3 +80,8 @@ function eventosGaleria(imagem) {
 galeria.forEach(eventosGaleria);
 
 console.log(galeria);
+
+// Animação
+if (window.SimpleAnime) {
+  new SimpleAnime();
+}
