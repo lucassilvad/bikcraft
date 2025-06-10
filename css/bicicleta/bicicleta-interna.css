@@ -21,7 +21,6 @@
 .bicicleta-imagens img {
   flex: 1;
   min-width: 200px;
-  cursor: pointer;
 }
 
 .bicicleta-imagens img:first-child {
@@ -104,6 +103,12 @@
 
 .bicicleta-ficha li + li {
   border-top: 2px solid var(--cor-11);
+}
+
+@media (min-width: 1000px) {
+  .bicicleta-imagens img {
+    cursor: pointer;
+  }
 }
 
 @media (max-width: 800px) {
